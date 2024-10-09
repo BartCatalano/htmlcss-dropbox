@@ -25,6 +25,9 @@ li{
     /* DEBUG */
     border: 1px solid black;
 }
+.mt-20{
+    margin-top: 20px;
+}
 /* HEADER */
 .header{
     display: flex;
