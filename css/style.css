@@ -17,7 +17,6 @@ li{
     margin: 0 auto;
     /* DEBUG */
     border: 1px solid black;
-    height: 400px;
 }
 /* HEADER */
 .header{
@@ -53,16 +52,30 @@ li{
 
 }
 .bannerraw{
+    flex-wrap: wrap;
+    display: flex;
     /* DEBUG */
     background-color: white;
 
 }
+.bannertitle{
+    /* debug */
+    height: 80px;
+    width: 100%;
+    background-color: rgb(22, 131, 204);
+
+}
 .bannercol1{
-    width: 70%;
-    /* DEBUG
- */
+    height: 100px;
+    width: 40%;
+    /* DEBUG*/
+    background-color: aqua;
 
 }
 .bannercol2{
+    width: 60%;
+    height: 100px;
+    /* DEBUG*/
+    background-color: rgb(255, 153, 0);
 
 }
