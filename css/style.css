@@ -99,7 +99,6 @@ li{
     justify-content:space-between;
     /* DEBUG */
     border: 1px solid green;
-    height: 400px;
     width: 100%;
     
 
@@ -107,25 +106,81 @@ li{
 .cardtitle{
     width: 100%;
     /* debug */
-    height: 20%;
+    height: 60px;
     background-color: rgb(74, 23, 214);
 
 }
 .cardcol{ 
+    margin: 10px 0;
     width: calc(90% / 3);
     
 
     /* debug */
     background-color: burlywood;
-    height: 80%;
+    height: 210px;
     border: 1px solid black;
 
 }
 .cardfooter{
     width: 100%;
-    margin-top: 20px;
     /* debug */
-    height: 40%;
+    height: 50px;
     background-color: rgb(49, 235, 42);
+
+}
+/* MIDSECTION */
+.midsection{
+padding 20px
+}
+.midraw{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    /* DEBUG */
+    border: 1px solid rgb(231, 97, 19);
+    width: 100%;
+
+}
+.midcol1{
+    width: 60%;
+/* DEBUG */
+height: 200PX;
+background-color: lightgreen;
+}
+.midcol2{
+    width: 40%;
+    /* DEBUG */
+    height: 200PX;
+    background-color: blueviolet;
+
+}
+/* DROP SECTION */
+.dropsection{
+
+}
+.dropdraw{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    /* DEBUG */
+    border: 1px solid rgb(19, 22, 231);
+    width: 100%;
+
+
+}
+.dropcoltitle{
+    width: 100%;
+    /* DEBUG */
+    background-color: brown;
+    height: 120px;
+
+}
+.dropcol{
+    margin-top: 10px;
+    width: calc(90%/3);
+    /* DEBUG */
+    height: 150px;
+    background-color: blue;
+    border: 1px solid black;
 
 }
