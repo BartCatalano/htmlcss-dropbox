@@ -184,3 +184,50 @@ background-color: lightgreen;
     border: 1px solid black;
 
 }
+/* FINAL SECTION */
+.finalsection{
+
+}
+.finaltitle{
+ /* DEBUG */
+
+ height: 150px;
+ background-color: rgb(160, 160, 192);
+ border: 1px solid black;
+}
+.finaltag{
+     /* DEBUG */
+     height: 50px;
+     background-color: rgb(65, 238, 137);
+     border: 1px solid black;
+
+}
+/* FOOTER */
+.footersection{
+    background-color: black;
+
+}
+.footerraw{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    /* DEBUG */
+  
+    width: 100%;
+    height: 300px;
+
+}
+.footercol{
+    /* DEBUG */
+    border: 1px solid white;
+    width: calc(100%/5);
+
+
+}
+.footerlenguages{
+    /* DEBUG */
+    width: 100%;
+    height: 50px;
+    border: 1px solid red;
+
+}
