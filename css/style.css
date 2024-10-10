@@ -16,7 +16,7 @@ a{
 }
 hr{
     width: 15%;
-    margin: 10% 0 10% 0;
+    margin: 40px 0 40px 0;
     color: lightgray;
 }
 .check-color{
@@ -29,15 +29,13 @@ hr{
     width: 80%;
     max-width: 1100px;
     margin: 0 auto;
-    /* DEBUG */
-    /* border: 1px solid black; */
+   
 }
 .smallcontainer{
     width: 70%;
     max-width: 1100px;
     margin: 0 auto;
-    /* DEBUG */
-    /* border: 1px solid black; */
+  /
 }
 .mt-20{
     margin-top: 20px;
@@ -46,7 +44,7 @@ hr{
     display: inline-block;
     background-color: blue;
     color: white;
-    padding: 10px 30px;
+    padding: 10px 15px;
     margin: 30px 0;
 
 }
@@ -68,28 +66,17 @@ hr{
     display: flex;
     justify-content: space-between;
      padding: 20px;
-    /* DEBUG */
-    /* height: 100px;
-    background-color: rgb(238, 75, 75); */
 }
 .list1{
     display: flex;
      gap: 20px;
-    /* DEBUG */
-    /* border: 1px solid black;
-    background-color: white;
-    width: 200px;
-    height: 60px; */
+   
 
 }
 .list2{
     display: flex;
      gap: 20px;
-      /* DEBUG */
-      /* border: 1px solid black;
-      background-color: rgb(94, 23, 226);
-      width: 200px;
-      height: 60px; */
+   
 }
 .small-button{
     background-color: blue;
@@ -103,25 +90,21 @@ hr{
 .banner{
     background-color: #b4d0e6;
     padding: 100px 0 0 0;
-    /* DEBUG */
-    /* border: 1px solid red; */
+   
 
 }
 .bannerraw{
     flex-wrap: wrap;
     display: flex;
     padding: 15px;
-    /* DEBUG */
-    /* background-color: white; */
+ 
 
 }
 .bannertitle{
    
     width: 100%;
     font-size: 35px;
-    /* debug */
-    /* height: 80px;
-    background-color: rgb(22, 131, 204); */
+    
 
 }
 .bannercol1{
@@ -129,17 +112,12 @@ hr{
     padding: 30px 0;
     width: 40%;
     font-size: 22px;
-    /* DEBUG*/
-    /* background-color: aqua; */
-    /* height: 100px; */
+ 
 
 }
 .bannercol2{
     width: 60%;
     
-    /* DEBUG*/
-    /* background-color: rgb(255, 153, 0);
-    height: 100px; */
 
 }
 /* CARD SECTION */
@@ -153,7 +131,7 @@ hr{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
-    /* DEBUG */
+    
 
     
 
@@ -169,9 +147,6 @@ padding-right: 20px;
     width: 100%;
     padding: 20px;
     
-    /* debug */
-    /* height: 60px;
-    background-color: rgb(74, 23, 214); */
 
 }
 .cardcol{ 
@@ -180,10 +155,6 @@ padding-right: 20px;
     width: calc(90%  / 3);
     border: 1px solid lightgray;
 
-    /* debug */
-    /* background-color: burlywood;
-    height: 210px;*/
-}
 
 /* INSIDE CARD */
 .title-inside{
@@ -215,7 +186,7 @@ padding-right: 20px;
     width: 100%;
     border: 1px solid lightgray;
     padding: 20px;
-    /* debug */
+    
     
 
     }
@@ -282,7 +253,7 @@ padding-right: 20px;
 .dropcol{
     margin-top: 10px;
     width: calc(90%/3);
-    /* DEBUG */
+    
 
 }
 /* FINAL SECTION */
@@ -291,7 +262,7 @@ padding-right: 20px;
 }
 .finaltitle{
     margin-right: 250px;
-    padding: 30px 0px 10px 0;
+    padding: 30px 0px 30px 0;
     font-size: 25px;
 }
 /* FOOTER */
@@ -310,16 +281,14 @@ padding-right: 20px;
 
 }
 .footercol{
-    /* DEBUG */
-    border: 1px solid white;
+    color: white;
+    padding: 20px 0;
     width: calc(100%/5);
 
 
 }
 .footerlenguages{
-    /* DEBUG */
-    width: 100%;
-    height: 50px;
-    border: 1px solid red;
+    padding-bottom: 300px;
+    color: white;
 
 }
