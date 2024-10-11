@@ -183,7 +183,7 @@ padding-right: 20px;
 .cardfooter{
     width: 100%;
     border: 1px solid lightgray;
-    padding: 20px;
+    padding: 0 0 20px 0;
     
     
 
@@ -196,6 +196,7 @@ padding-right: 20px;
     }
     .cardfooter-left{
         width: 50%;
+        padding: 10px;
     }
     .cardfooter-right{
         width: 30%;
